@@ -1,2 +1,2 @@
 # Uniform Random
-A simple, reliable, cross-platform and cross-language uniform random number generator (RNG).
+A simple, fast, reliable, cross-platform and cross-language uniform random number generator (RNG). Do not use this for cryptography.
