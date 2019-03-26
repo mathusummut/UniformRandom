@@ -83,7 +83,7 @@ namespace System {
 
 		static UniformRandom() {
 			unchecked {
-				ulong seed = 1389880606230557208ul - (ulong) PreciseStopwatch.TimeStamp;
+				ulong seed = 1389880606230557208ul - (ulong) Stopwatch.GetTimestamp();
 				Seeds[55] = seed;
 				ulong num = 1;
 				for (int num1, i = 1; i < 55; i++) {
